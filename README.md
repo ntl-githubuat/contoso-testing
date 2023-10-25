@@ -35,7 +35,8 @@
 
 5.Create AWS Roles
     5.1 touch main.tf version.tf output.tf variables.tf
-
+    5.2 push to github and TFC auto trigger
+    
 
 
          ##gh repo create hashicat-aws-bca-github-testing --private --source=. --remote=upstream --push
