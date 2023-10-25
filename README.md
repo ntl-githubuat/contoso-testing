@@ -20,7 +20,7 @@
     4.4 Create test file (VCS)
     4.5 Cretae workspace (TFC)
         Version Control workfloww > Choose org > choose the correct repo Advanced options ( Choose Auto Apply)
-    4.6
+    4.6 configure environment variable for AWS
         AWS_ACCESS_KEY_ID : xxxxxxx
         AWS_SECRET_ACCESS_KEY : xxxxxx
 
@@ -30,15 +30,18 @@
          git remote -v
          git status
          git add .
-         git commit -m "Update ReadME"
+         git commit -m "Update README"
          git push
 
-         git remote rm origin
+5.Create AWS Roles
+    5.1 touch main.tf version.tf output.tf variables.tf
 
-         gh repo create hashicat-aws-bca-github-testing --private --source=. --remote=upstream --push
+
+
+         ##gh repo create hashicat-aws-bca-github-testing --private --source=. --remote=upstream --push
 
          
-
+###
     eval "$(ssh-agent -s)"
     ssh-add ~/.ssh/ntl-githubuat
     ssh -T git@github.com
