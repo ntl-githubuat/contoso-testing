@@ -1,5 +1,5 @@
 output "contoso-testing-role" {
-  value = resource.aws_iam_role.contoso-testing-terraform.id
+  value = resource.aws_iam_role.contoso-testing-terraform-role-devops.id
 }
 
 # output "bca-aws-dev-hc-dev-terraform-role-devops-role-id" {
